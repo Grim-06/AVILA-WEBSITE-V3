@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('background-image.jpg') center/cover;
+	
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    position: relative;
+}
+
+.photo-box {
+    display: none;
+    text-align: center;
+    padding: 120px;
+    background-color: rgba(249, 249, 249, 0.3); /* Transparent gray color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 1500px; /* Set a maximum width for the box */
+    margin: 0 auto; /* Center the box horizontally */
+}
+
+
+.photo-box img {
+    width: 40%; /* Ensure the image takes up 100% of the container width */
+    max-width:50px; /* Set a maximum width for the image */
+    height: auto;
+    border-radius: 5px;
+    max-width: 200px; /* Set a maximum width for the box */
+    margin: 0 auto; /* Center the box horizontally */
+}
+
+.slideshow-buttons {
+    position: fixed;
+    top: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+button {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 20%;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #212020; 
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+

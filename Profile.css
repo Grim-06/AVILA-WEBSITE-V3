@@ -1,0 +1,108 @@
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f0f0f0;
+    }
+
+    header {
+        background-color: #212020;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding: 20px;
+        text-align: center;
+        font-size: 20px; /* Adjust font size */
+    }
+
+    .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .profile img {
+        border-radius: 50%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        border: 5px solid white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 150px; /* Adjust profile picture size */
+        height: 150px;
+    }
+
+    .profile-info {
+        max-width: 500px; /* Adjust maximum width for profile information */
+        text-align: left;
+    }
+
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0; /* Add margin for space between profile and boxes */
+    }
+
+    .box {
+        margin: 10px auto;
+        padding: 15px;
+        background-color: #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        min-width: 300px; /* Corrected minimum width */
+        max-width: 500px; /* Set a maximum width */
+    }
+
+    .social-media-container {
+	text-align: center;
+	color: white;
+}	
+
+
+    .social-media-button {
+        display: inline-block;
+        padding: 5px;
+        background-color: #212020; 
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+	text-align: center;
+    }
+
+    .social-media-button.instagram {
+        background-color: #212020; 
+    }
+
+
+    ul {
+        list-style: none; /* Remove default list styles */
+        padding-left: 0; /* Remove default left padding */
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        background-color: #212020;
+        color: white;
+        padding: 1em;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+</style>
